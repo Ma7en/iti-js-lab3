@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            form > input[type="submit"] {
+                width: 50%;
+                margin-top: 10px;
+            }
+        </style>
+
+        <title>Bonus</title>
+    </head>
+    <body>
+        <!-- 
+            Bonus(Optional): 
+            Using location Object with simple HTML Form Page 
+
+            With get method, after clicking submit button show the Name 
+            and Age on page console.  
+         -->
+
+        <form method="get">
+            <label>Name</label>
+            <input type="text" name="username" />
+
+            <label>Age</label>
+            <input type="text" name="age" />
+
+            <input type="submit" value="send" />
+        </form>
+
+        <div>
+            <button onclick="showInfo()">showInfo</button>
+        </div>
+
+        <script src="./js/bonus.js"></script>
+    </body>
+</html>

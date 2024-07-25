@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <h1>bonus</h1>
+        </div>
+        <script>
+            function randomNumber(numLength) {
+                var arrayNumber = [];
+                for (let i = 0; i < +numLength; i++) {
+                    arrayNumber.push(Math.random());
+                }
+                return arrayNumber;
+            }
+            var inputUser = prompt("enter length should be less than 11");
+            console.log(randomNumber(inputUser));
+        </script>
+    </body>
+</html>

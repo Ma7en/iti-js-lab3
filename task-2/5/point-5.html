@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Point-5</title>
+        <style>
+            button {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>lab3 - point-5</h1>
+        </div>
+        <p>
+            5- write function startSliding(ImgObject) which takes the image
+            Object to be slide on the page , and start changing the image every
+            second to be professional : don’t make timer ID global return it
+            from sliding function. then write another function that stop image
+            sliding stopSliding(timerID) which stop sliding the image by taking
+            the timerID as an input. Now call these functions on console to
+            control image sliding on the page.
+        </p>
+        <div>
+            <img
+                id="slidingImage"
+                src="./images/A1.png"
+                alt="Sliding Image"
+                width="300"
+            />
+        </div>
+        <div>
+            <button id="start">start sliding</button>
+            <button id="stop">stop sliding</button>
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+        </div>
+
+        <script src="./js/point-5.js"></script>
+    </body>
+</html>
